@@ -1,3 +1,73 @@
-# For_Piccolina
-LINK: https://andreparedes404.github.io/For_Piccolina/
-Espero te guste ...
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Loretta ❤️ </title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #e43c58, #c31d62);
+            text-align: center;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 50px;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.5em;
+            margin-bottom: 40px;
+        }
+        .heart {
+            font-size: 5em;
+            color: #ff4d6d;
+            animation: heartbeat 1.5s infinite;
+        }
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+        .button {
+            background-color: #fff;
+            color: #ff4d6d;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.5em;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .button:hover {
+            background-color: #ff4d6d;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Querida Loretta Piccolina 😻</h1>
+        <p>Te has convertido en alguien sumamente especial para mí. Disfruto cada momento que paso a tu lado y me encantaría poder compartir mi vida contigo. En este juego del amor, he perdido ante ti, y lo hago con todo mi corazón. No me importa haber quedado rendido, porque ganar tu amor es lo que más deseo.</p>
+        <div class="heart">💖</div>
+        <p>¿Quieres ser mi San Valentín?</p>
+        <button class="button" onclick="respuesta('Sí')">¡Sí, quiero! 💕</button>
+        <button class="button" onclick="respuesta('No')">Lo pensaré 🤔</button>
+    </div>
+
+    <script>
+        function respuesta(opcion) {
+            if (opcion === 'Sí') {
+                alert('¡Me haces el más feliz del mundo! ❤️');
+            } else {
+                alert('¡El chaman me dijo que caerías, piénsalo! 😊');
+            }
+        }
+    </script>
+</body>
+</html>
